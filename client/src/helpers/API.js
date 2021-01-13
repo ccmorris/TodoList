@@ -1,4 +1,4 @@
-export default async (path, method, body) => {
+const API =  async (path, method, body) => {
   const url = '/api' + path
   const response = await fetch(url, {
     method: method ? method : 'GET',
@@ -16,3 +16,5 @@ export default async (path, method, body) => {
   }
   return await response.json()
 }
+
+export default API
