@@ -26,9 +26,19 @@
 {
   padding: 25px;
   text-align: left;
+  background: #fafafa;
 }
 
 h2, h3
 {
   margin: 0 0 0.5em 0;
+}
+
+p
+{
+  margin-bottom: 1em;
+}
+p:last-child
+{
+  margin-bottom: 0;
 }
